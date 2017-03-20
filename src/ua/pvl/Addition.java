@@ -3,7 +3,7 @@ package ua.pvl;
 public class Addition extends Calculation {
 
     public Addition(Fraction fraction1, Fraction fraction2) {
-        super(fraction1, fraction2, "Addition", '+');
+        super(fraction1, fraction2, "+");
     }
 
     public void calculate() {
